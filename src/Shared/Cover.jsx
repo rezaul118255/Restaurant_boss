@@ -15,7 +15,7 @@ const Cover = ({ img, title }) => {
                     <div className="hero-content text-center text-neutral-content">
                         <div className="max-w-md">
                             <h1 className="mb-5 text-5xl font-bold">{title}</h1>
-                            <p className="mb-5">Would you like to try a dish?</p>
+                            <p className="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus quam similique ?</p>
 
                         </div>
                     </div>
