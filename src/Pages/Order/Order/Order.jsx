@@ -17,6 +17,7 @@ const Order = () => {
     const [tapIndex, setTabIndex] = useState(initialIndex)
     const [Menu] = UseMenu()
 
+
     console.log(category)
     const salad = Menu.filter(item => item.category === "salad")
     const soup = Menu.filter(item => item.category === "soup")
