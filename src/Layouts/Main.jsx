@@ -6,7 +6,7 @@ import Footer from '../Shared/Footer';
 const Main = () => {
     const location = useLocation()
 
-    const noHeaderFooter = location.pathname.includes('login')
+    const noHeaderFooter = location.pathname.includes('login') || location.pathname.includes('signUp')
     return (
         <div className='max-w-screen-lg mx-auto'>
 
